@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 0;
+}
+
+label {
+    font-size: 16px;
+}
+
+#subscription,
+#telegram {
+    position: relative;
+}
+
+#payment {
+    position: absolute;
+    top: 61%;
+    right: 16%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#tgdiv {
+    position: absolute;
+    top: 66%;
+    right: 33%;
+}
+
+input,
+select {
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+    background: #3560a7;
+    outline: none;
+}
+
+#pay,
+#tg {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.bg img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    #payment {
+        position: absolute;
+        top: 61%;
+        right: 7%;
+    }
+    label {
+        font-size: 8px;
+    }
+    input,
+    select {
+        height: 15px;
+        width: 80px;
+    }
+    #pay,
+    #tg {
+        width: 75px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    label {
+        font-size: 12px;
+    }
+    input,
+    select {
+        height: 20px;
+        width: 110px;
+    }
+    #pay,
+    #tg {
+        width: 130px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    #tgdiv {
+        top: 66%;
+        right: 33%;
+    }
+    input,
+    select {
+        height: 20px;
+        width: 120px;
+    }
+    #pay,
+    #tg {
+        width: 150px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    #tgdiv {
+        top: 66%;
+        right: 33%;
+    }
+    input,
+    select {
+        height: 30px;
+        width: 130px;
+    }
+    #pay,
+    #tg {
+        width: 180px;
+    }
+}
