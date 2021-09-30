@@ -105,8 +105,11 @@ select {
     }
     input,
     select {
-        height: 20px;
-        width: 120px;
+        height: 30px;
+        width: 125px;
+    }
+    label {
+        font-size: 16px;
     }
     #pay,
     #tg {
@@ -124,11 +127,15 @@ select {
     }
     input,
     select {
-        height: 30px;
-        width: 130px;
+        height: 35px;
+        width: 135px;
+    }
+    label {
+        font-size: 20px;
     }
     #pay,
     #tg {
         width: 180px;
     }
+
 }
