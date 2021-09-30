@@ -26,6 +26,8 @@ label {
     text-transform: uppercase;
     color: #fff;
 }
+button{background: transparent;
+border: none;}
 
 #tgdiv {
     position: absolute;
